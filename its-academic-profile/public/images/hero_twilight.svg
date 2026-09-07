@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Dusty Pink to Orange Twilight Sky Gradient -->
+    <linearGradient id="twilightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b4e"/>
+      <stop offset="30%" stop-color="#4a2559"/>
+      <stop offset="55%" stop-color="#934668"/>
+      <stop offset="75%" stop-color="#e07a5f"/>
+      <stop offset="90%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+
+    <!-- Sun / Glow Gradient -->
+    <radialGradient id="sunGlow" cx="50%" cy="65%" r="40%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#e07a5f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dark Overlay Gradient for Text Readability -->
+    <linearGradient id="heroDarkOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#0a0a0a" stop-opacity="0.45"/>
+      <stop offset="85%" stop-color="#0a0a0a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="1.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Base -->
+  <rect width="1920" height="1080" fill="url(#twilightSky)"/>
+
+  <!-- Sun Glow -->
+  <rect width="1920" height="1080" fill="url(#sunGlow)"/>
+
+  <!-- Silhouetted Rolling Hills Layer 1 (Far Background) -->
+  <path d="M 0,720 Q 480,640 960,690 T 1920,650 L 1920,1080 L 0,1080 Z" fill="#24142c" opacity="0.7"/>
+
+  <!-- Silhouetted Rolling Hills Layer 2 (Mid Ground) -->
+  <path d="M 0,760 Q 360,700 840,750 T 1920,720 L 1920,1080 L 0,1080 Z" fill="#180d20" opacity="0.85"/>
+
+  <!-- Silhouetted Rolling Hills Layer 3 (Foreground) -->
+  <path d="M 0,820 Q 540,770 1080,810 T 1920,790 L 1920,1080 L 0,1080 Z" fill="#0d0714"/>
+
+  <!-- Near-Black Base Hill Overlay -->
+  <path d="M 0,890 Q 420,850 960,880 T 1920,860 L 1920,1080 L 0,1080 Z" fill="#0a0a0a"/>
+
+  <!-- Dark Readability Overlay -->
+  <rect width="1920" height="1080" fill="url(#heroDarkOverlay)"/>
+</svg>
