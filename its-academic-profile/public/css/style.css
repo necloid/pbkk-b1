@@ -316,9 +316,6 @@ button:focus-visible,
   font-size: 0.9em;
 }
 
-/* --------------------------------------------------------------------------
-   macOS Finder Directory Outer Card & Floating Windows Scene
-   -------------------------------------------------------------------------- */
 .finder-card-bg {
   position: relative;
   background: #141416;
